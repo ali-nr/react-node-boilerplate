@@ -3,7 +3,7 @@ import {config} from 'dotenv';
 //initialise config variables
 config();
 
-console.log(process.env.SPOTIFY_CLIENTID);
+console.log(process.env.SOME_VALUE);
 
 const typeDefs = gql`
   type Book {
